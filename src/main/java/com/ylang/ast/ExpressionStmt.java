@@ -1,0 +1,14 @@
+package com.ylang.ast;
+
+public class ExpressionStmt extends Stmt {
+
+    private final Expr expression;
+
+    public ExpressionStmt(Expr expression) {
+        this.expression = expression;
+    }
+
+    public Expr getExpression() {
+        return expression;
+    }
+}
